@@ -1,0 +1,23 @@
+.shrink img {
+transition: 1s ease;
+}
+
+.shrink img:hover{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+}
+
+
+a svg:hover #svg-hover { 
+  fill: #111;
+}
+
+
+a svg #svg-hover { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
