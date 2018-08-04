@@ -32,6 +32,7 @@ h2 {
 
 .logo {
 	grid-column: 1 / 2;
+	height: 41px;
 }
 
 .logoLead {
@@ -160,6 +161,7 @@ h2 {
 .logo2 {
 	grid-column: 1 / 2;
 }
+
 
 .texto_logo2 {
 	align-self: center;
@@ -346,17 +348,6 @@ h2 {
     filter: drop-shadow(4px 4px 3px rgba(0,0,0,0.5)); 
 }
 
-/* .video_container {
-	padding-top: 60px;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 100px 300px;
-}
-
-.video {
-	grid-column: 1 / 2;
-	padding-bottom: 60px;
-} */
 
 .video_container {
 	margin-top: 80px;
